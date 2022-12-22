@@ -5,6 +5,7 @@ function plotfield(axs,fence)
     hold on
     x = [66 60 60-(34/12) 48];
     y = [0 20/12 20/12 0];
+    
     fill(x,y,[0.2 0 0]);
     line([axs(1),127],[0,0],'LineWidth', .5,'Color',[0.2 0 0]);
     line([127,fence],[0,0],'LineWidth', .5,'Color',[0 0.6 .3]);

@@ -1,8 +1,6 @@
 % FLuid Dynamics Final Project 2021
 % University of Colorado, Boulder
 % time for eulers equation
-
-
 dt=.01;
 step = .003;
 

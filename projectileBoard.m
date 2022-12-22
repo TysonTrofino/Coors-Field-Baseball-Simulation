@@ -1,6 +1,4 @@
 function projectileBoard(xa,ya)
-
-        
         x_cord = 500;
         y_cord = 90;
         %% DO NOT TOUCH THIS:  Change axis on line 4 and 5
@@ -8,10 +6,8 @@ function projectileBoard(xa,ya)
         x = [x_cord-93 x_cord-93 x_cord+73 x_cord+73];
         y = [y_cord-18 y_cord+32 y_cord+32 y_cord-18];
         
-        
         fill(x,y,'white','LineStyle','none');
-        
-
+       
         text(x_cord-85,y_cord+25,'Ball Traveled:','FontSize',7);
         text(x_cord+65,y_cord+25,'ft','FontSize',7);
     
